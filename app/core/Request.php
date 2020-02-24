@@ -1,7 +1,8 @@
 <?php
 namespace app\core;
-use app\lib\Contracts\IRequest;
-class Request implements IRequest{
+use app\lib\contracts\IRequest;
+
+class Request implements IRequest {
   function __construct()
   {
     $this->bootstrapSelf();

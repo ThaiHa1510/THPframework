@@ -20,5 +20,8 @@
 		public function run(){
 			$this->router->run();
 		}
+		private function make(){
+			print_r("ok dang chy make");
+		}
 	}
 ?>

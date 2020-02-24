@@ -1,5 +1,6 @@
 <?php
-namespace app\lib\Contracts;
+namespace app\lib\contracts;
+
 interface IRequest
 {
     public function getBody();

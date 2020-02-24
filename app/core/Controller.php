@@ -1,11 +1,12 @@
 <?php
 	namespace app\core;
-	
-	
+	use app\core\Request;
 	class Controller{
 		private $layout = null;
 		private $config;
 		private $view;
+		public $request;
+		
 		public function __construct(){
 			$this->config = Registry::getIntance()->config;
 			
@@ -14,7 +15,7 @@
 			}else{
 				$this->layout=$this->config['layout'];
 			}
-			
+			$this->request=new Request();
 
 		}
 

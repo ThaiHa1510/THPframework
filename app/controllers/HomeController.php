@@ -3,7 +3,6 @@ namespace app\controllers;
 use app\core\Controller;
 use Twig\TwigFilter;
 use Twig\TwigFunction;
-use app\core\Registry;
 /**
 	* HomeController
 	*/
@@ -16,9 +15,10 @@ use app\core\Registry;
 		}
 
 		public function index($id,$name){
-			echo $id;
+			echo $id . '<br>';
+			print_r($this->request->documentRoot);
 			echo '<br>'.$name;
-
+			
 		}
 		public function views(){
 		$products = [

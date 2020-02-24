@@ -9,9 +9,7 @@
 	Router::get('/news',function(){
 		echo 'news page la';
 	});
-	Router::get('/home/:id/:ok',function($paramater){
-		print_r(var_dump($paramater));
-	});
+	
 	Router::get('/home/:name',function($paramater){
 		print_r($paramater["name"]);
 		//echo "ok";

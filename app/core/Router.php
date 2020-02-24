@@ -2,7 +2,7 @@
     //namespace app\core;
 	use app\core\Registry;
 	use app\core\AppException;
-	use app\lib\Requests\Request;
+	use app\lib\Contracts\IRequest;
 	/**
 	* Router
 	*/
