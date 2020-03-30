@@ -1,6 +1,6 @@
 <?php
-namespace app\controllers;
-use app\core\Controller;
+namespace App\Controllers;
+use App\Core\Controller;
 use Twig\TwigFilter;
 use Twig\TwigFunction;
 /**

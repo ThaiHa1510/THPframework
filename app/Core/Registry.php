@@ -1,6 +1,6 @@
 <?php
-	namespace app\core;
-	//use app\core\AppException;
+	namespace App\Core;
+	//use App\core\AppException;
 	
 	class Registry{
 		private static $intance;

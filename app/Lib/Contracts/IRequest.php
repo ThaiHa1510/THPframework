@@ -1,5 +1,5 @@
 <?php
-namespace app\lib\contracts;
+namespace App\lib\contracts;
 
 interface IRequest
 {

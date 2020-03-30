@@ -1,5 +1,5 @@
 <?php
-	use app\core\AppException;
+	use App\core\AppException;
 	class Autoload{
 		private $rootDir;
 
@@ -24,17 +24,6 @@
 				throw new AppException("$class does't not exits");
 		}
 
-		private function autoLoadFile(){
-			foreach( $this->defaulFileLoad() as $file ){
-				require_once( $this->rootDir .'/'.$file );
-			}
-		}
-
-		private function defaulFileLoad(){
-			return [
-				'app/core/Router.php',
-				'app/routers.php'
-			];
-		}
+		
 	}
 ?>

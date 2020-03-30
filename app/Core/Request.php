@@ -1,6 +1,6 @@
 <?php
-namespace app\core;
-use app\lib\contracts\IRequest;
+namespace App\core;
+use App\Lib\Contracts\IRequest;
 
 class Request implements IRequest {
   function __construct()

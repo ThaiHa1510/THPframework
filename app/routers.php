@@ -1,5 +1,5 @@
 <?php
-	use app\core\Controller;
+	use App\core\Controller;
 	Router::get('/home/:id/:name', 'HomeController@index');
 	
 	Router::get('/',function(){

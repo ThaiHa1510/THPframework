@@ -1,6 +1,6 @@
 <?php
-	namespace app\core;
-	use app\core\Request;
+	namespace App\Core;
+	use App\Core\Request;
 	class Controller{
 		private $layout = null;
 		private $config;
